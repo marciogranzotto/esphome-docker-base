@@ -22,6 +22,7 @@ def gen_hassio(hassio_arch, base_arch):
 
 HASSIO_ARCHS = [
     ('amd64', 'amd64'),
+    ('i386', 'i386'),
     ('armv7', 'armv7'),
     ('aarch64', 'aarch64'),
 ]
@@ -42,6 +43,7 @@ def gen_docker(target_arch, docker_arch):
 
 DOCKER_ARCHS = [
     ('amd64', 'amd64'),
+    ('i386', 'i386'),
     ('armv7', 'arm32v7'),
     ('aarch64', 'arm64v8'),
 ]
